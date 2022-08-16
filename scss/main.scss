@@ -1,5 +1,5 @@
 $primary-color: #444;
-$secondary-color: #12475f;
+$secondary-color: #eece1a;
 
 * {
     box-sizing: border-box;
@@ -40,4 +40,10 @@ header {
     width: 100%;
 }
 
-.secondary
+.text-secondary {
+    color: $secondary-color;
+}
+
+main {
+    padding: 5rem;
+}
